@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface Dispatch : NSObject
-
+-(void)createQueue;
+-(void)testConcurrnet;
+-(void)group;
 @end
