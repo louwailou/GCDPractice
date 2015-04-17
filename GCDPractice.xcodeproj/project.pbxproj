@@ -14,6 +14,7 @@
 		A407FB351AC10A0100919CA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A407FB341AC10A0100919CA1 /* Images.xcassets */; };
 		A407FB381AC10A0100919CA1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A407FB361AC10A0100919CA1 /* LaunchScreen.xib */; };
 		A407FB441AC10A0100919CA1 /* GCDPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A407FB431AC10A0100919CA1 /* GCDPracticeTests.m */; };
+		A407FB4F1AC10A2400919CA1 /* Dispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = A407FB4E1AC10A2400919CA1 /* Dispatch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		A407FB3D1AC10A0100919CA1 /* GCDPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A407FB421AC10A0100919CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A407FB431AC10A0100919CA1 /* GCDPracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDPracticeTests.m; sourceTree = "<group>"; };
+		A407FB4D1AC10A2400919CA1 /* Dispatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dispatch.h; sourceTree = "<group>"; };
+		A407FB4E1AC10A2400919CA1 /* Dispatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dispatch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				A407FB341AC10A0100919CA1 /* Images.xcassets */,
 				A407FB361AC10A0100919CA1 /* LaunchScreen.xib */,
 				A407FB271AC10A0100919CA1 /* Supporting Files */,
+				A407FB4D1AC10A2400919CA1 /* Dispatch.h */,
+				A407FB4E1AC10A2400919CA1 /* Dispatch.m */,
 			);
 			path = GCDPractice;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A407FB301AC10A0100919CA1 /* ViewController.m in Sources */,
+				A407FB4F1AC10A2400919CA1 /* Dispatch.m in Sources */,
 				A407FB2D1AC10A0100919CA1 /* AppDelegate.m in Sources */,
 				A407FB2A1AC10A0100919CA1 /* main.m in Sources */,
 			);
